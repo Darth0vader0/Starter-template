@@ -1,19 +1,32 @@
-when every you want to start a new project no worries about login sign up like basic stuffs and folder structure 
+# 🔐 Fullstack Auth Starter Template
 
-everything in one just add .env file with 
+A clean, pre-configured starter template with **Login/Signup**, **MongoDB integration**, and a well-structured **frontend/backend** folder setup — perfect for bootstrapping new fullstack projects without worrying about boilerplate.
 
-#JWT_SECRET 
 
-#MONGODB_URI
+---
 
-#NODE_ENV 
+## ⚙️ Environment Setup
 
-and run in both folder /backend , /frontend 
+Before starting the app, create a `.env` file inside the `/backend` directory with the following:
 
-#npm i && npm run dev 
+```env
+# Required Environment Variables
+JWT_SECRET=your_jwt_secret_here
+MONGODB_URI=your_mongodb_uri_here
+NODE_ENV=development
+```
 
-if there is any problem with frontend installments ->run this 
+---
+# 📁 Folder Structure
 
-_> # npm i --legacy-peer-deps 
+```env
+# In both /frontend and /backend folders:
+npm install
+npm run dev
 
-_> # npm run dev
+# in case of frontend install errors
+npm install --legacy-peer-deps
+npm run dev
+
+
+
